@@ -7,23 +7,28 @@
     box-sizing: border-box;
 }
 .body{
-    width:1055px;
+
 }
 /* header section style */
 .header{
+  
     background-color: rgb(255, 244, 230);
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
+    
 }
-.header h3{
+.header-content{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-content h3{ 
+    width:302px;
 color: rgb(19, 19, 19);
 font-family: Work Sans;
 font-size: 25px;
 font-weight: 700;
 line-height: 53px;
 letter-spacing: 0%;
-position:relative;
+position:relative ;
 left:90px;
 }
 #hamburk{
@@ -45,4 +50,69 @@ left:90px;
     line-height: 26px;
     position:relative;
     right:90px;
+}
+/* banner style  */
+.banner{
+    width:1220px;
+    margin:0 auto;
+    padding:70px;
+    text-align: center;
+}
+.banner-content{
+width:800px;
+height: 225px;
+margin:0 auto;
+}
+.banner-title{
+ color: rgb(19, 19, 19);
+font-family: Work Sans;
+font-size: 64px;
+font-weight: 700;
+line-height: 65px;
+letter-spacing: 0%;
+margin-bottom:20px;
+}
+.banner-description{
+color: rgb(114, 114, 114);
+font-family: Work Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+/* button style */
+.explore-btn{
+    display: flex;
+    justify-content: center;
+    margin-top:15px;
+}
+.Explore{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+background: rgb(255, 144, 14);
+padding:10px 13px;
+border:none;
+cursor: pointer;
+
+}
+.Explore:hover{
+    background-color: rgb(51, 112, 255);
+    color:black;
+    transition: 0.6s;
+    transform: translate3d(10px, 50%, 3em);
+    border:1px solid black;
+}
+/* banner image style  */
+.banner-image img{
+    width:1050px;
+    height: 420px;
+   margin-top:40px;
 }
