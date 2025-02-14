@@ -122,11 +122,34 @@ cursor: pointer;
     transform: translate3d(10px, 50%, 3em);
     border:1px solid black;
 }
+.year-btn{
+    display:flex;
+    justify-content: center;
+    position:relative;
+    left:130px;
+    bottom:85px;
+}
+.year-btn p{
+    font-size:55px;
+background: rgb(255, 144, 14);
+color:rgb(255, 255, 255);
+text-align: center;
+border:none;
+}
+.year-btn button{
+    border-radius: 8px;
+    background: rgb(255, 144, 14);
+    color:rgb(255, 255, 255);
+    padding:25px 12px;
+    border:none;
+}
+
 /* banner image style  */
 .banner-image img{
     width:1050px;
     height: 420px;
    margin-top:40px;
+  
 }
 /* feature style  */
 .features{
